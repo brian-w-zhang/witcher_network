@@ -87,10 +87,6 @@ To trace the evolution of character importance in the Witcher book series, a str
 
 This systematic analysis, facilitated by modular functions and visualizations, provided insights into the dynamic shifts in character importance across the Witcher series. The use of Python tools and organized coding practices enhanced efficiency and scalability in conducting this analysis.
 
-### Closeness Centrality
-![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/b7d46eb1-0d4b-472d-90a6-65f219c3e4fd)
-
-
 ## Project Highlights
 
 ### Web Scraping & NER
