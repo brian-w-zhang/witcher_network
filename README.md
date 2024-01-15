@@ -12,6 +12,7 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
+- [Analysis Plan](#analysis-plan)
 - [Network Diagram Evolution](#network-diagram-evolution)
 - [Centrality Graphs](#centrality-graphs)
 - [Evolution of Character Importance](#evolution-of-character-importance)
@@ -34,6 +35,24 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
   - Custom Relationship Extraction
 - **Graph Analysis:** NetworkX
 - **Community Detection Algorithm:** Louvain Algorithm
+
+## Analysis Plan
+
+I opted for a straightforward baseline model, combining Named Entity Recognition (NER) with custom rules, outlined as follows:
+
+1. **Tokenization and Sentence Labeling:**
+   - Tokenized each book into a list of sentences.
+   - Labeled sentences with the names of characters mentioned.
+
+2. **Relationship Inference with Window Size:**
+   - Defined a window size to determine the proximity of two sentences.
+   - Assumed a relationship between characters if mentioned within the specified window.
+   
+3. **Named Entity Recognition (NER):**
+   - Utilized NER to recognize various entities, including character names.
+   - Filtered out non-character entities, leveraging the character names scraped from the Witcher wiki.
+
+This approach ensures a focused analysis by considering character relationships within a contextual window, aided by NER for accurate entity identification.
 
 ## Network Diagram Evolution
 
