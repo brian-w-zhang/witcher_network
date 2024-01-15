@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves a comprehensive analysis of the Witcher book series, focusing on character relationships, temporal dynamics, and community structures. The analysis utilizes a combination of web scraping, Named Entity Recognition (NER), custom relationship extraction, and graph analytics.
+This project is an in-depth Natural Language Processing (NLP) analysis of the Witcher book series, focusing on character relationships, temporal dynamics, and community structures. Leveraging web scraping, Named Entity Recognition (NER), custom relationship extraction, and graph analytics, the project unveils intricate character connections and their evolution throughout the series.
 
 ## Table of Contents
 
