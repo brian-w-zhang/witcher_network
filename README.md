@@ -22,6 +22,7 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
   - [Python Proficiency & Data Visualization](#python-proficiency--data-visualization)
 - [Utilization of AI](#utilization-of-ai)
 - [Project Impact](#project-impact)
+- [Next Steps](#next-steps)
 
 ## Technologies Used
 - **Programming Language:** Python
@@ -117,5 +118,8 @@ This systematic analysis, facilitated by modular functions and visualizations, p
 
 ## Project Impact
 The project provided a deep understanding of character relationships and their evolution throughout the Witcher book series. The use of NLP and graph analytics offered valuable insights into the dynamics of the narrative.
-
 Feel free to explore the notebooks and adapt the code for your own analysis.
+
+## Next Steps
+The same process can be applied to other fictional fantasy novel series or any long text-based media involving character relationships. The methodology used in this project offers a framework for understanding and visualizing intricate character connections.
+Furthermore, the process could potentially be automated and incorporated into a Large Language Model (LLM). This LLM could take text prompts, such as "Show me a character relationship network for Harry Potter: The Philosopher's Stone," and return dynamic graphs depicting character connections, opening up possibilities for automated analysis of diverse literary works.
