@@ -5,16 +5,17 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
 
 
 ## Overview
-This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
+This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series, by Andrzej Sapkowski. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
 
 ### PyVis Graph with Community Detection
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/7b62ba5f-8576-42ec-a24b-34ea47f2606d)
 
-This image showcases a network graph generated using PyVis, visualizing the intricate relationships among characters in the Witcher book series. The community detection algorithm, specifically the Louvain algorithm, has been applied to uncover distinct character groups within the narrative. The colors represent different communities, providing insights into the social dynamics and connections between characters throughout the series. Additionally, the node sizes reflect the degree of each character, highlighting their importance in the network.
+This image showcases a network graph generated using PyVis, visualizing the intricate relationships among characters in the Witcher book series. The community detection algorithm, specifically the Louvain algorithm, has been applied to uncover distinct character groups within the narrative. The colors represent different communities, providing insights into the social dynamics and connections between characters throughout the series. Additionally, the node sizes reflect the degree of each character, highlighting their importance in the network (Data from Sword of Destiny).
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
 - [Network Diagram Evolution](#network-diagram-evolution)
+- [Centrality Graphs](#centrality-graphs)
 - [Project Highlights](#project-highlights)
   - [Web Scraping & NER](#web-scraping--ner)
   - [Relationship Extraction & Network Analysis](#relationship-extraction--network-analysis)
@@ -47,6 +48,20 @@ This image showcases a network graph generated using PyVis, visualizing the intr
 
 ### Add colours for community detection
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/f5b23e3c-72bb-4a6f-b591-cd24febe4c5f)
+
+## Centrality Graphs
+
+### Degree Centrality
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/f14914ca-bcb0-45df-8f1d-113c9216731a)
+Degree centrality is a measure in network analysis that quantifies the importance of a node based on its connections. Specifically, it represents the number of direct connections or links a node has within a network. In simpler terms, nodes with higher degree centrality have more relationships or interactions with other nodes, signifying a greater influence or prominence in the network.
+
+### Betweenness Centrality
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/1fa601f7-4b5a-47fc-9dcc-d3aa978f87a9)
+Betweenness centrality is a network analysis metric that identifies nodes that act as crucial intermediaries or bridges in a network. It measures the frequency with which a node lies on the shortest paths between other pairs of nodes. Nodes with higher betweenness centrality play a significant role in maintaining efficient communication within the network. They act as critical connectors, influencing the flow of information between different parts of the network. High betweenness centrality nodes are essential for maintaining network cohesion and facilitating communication between disparate groups of nodes.
+
+### Closeness Centrality
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/65f979b9-5290-496f-9d42-e1b259363ed5)
+Closeness centrality is a network analysis metric that measures how quickly a node can reach other nodes in a network. It is calculated by determining the average length of the shortest paths between a node and all other nodes in the network. Nodes with higher closeness centrality are considered more central because they can efficiently communicate or transmit information to other nodes, acting as potential hubs for information flow within the network.
 
 ## Project Highlights
 
