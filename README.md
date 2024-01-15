@@ -1,75 +1,58 @@
 # Witcher Book Series NLP Analysis
 
 ## Overview
-
-This project is an in-depth Natural Language Processing (NLP) analysis of the Witcher book series, focusing on character relationships, temporal dynamics, and community structures. Leveraging web scraping, Named Entity Recognition (NER), custom relationship extraction, and graph analytics, the project unveils intricate character connections and their evolution throughout the series.
+This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
 
 ## Table of Contents
-
-- [Web Scraping & Named Entity Recognition (NER)](#web-scraping--named-entity-recognition-ner)
-- [Relationship Extraction & Network Analysis](#relationship-extraction--network-analysis)
-- [Temporal Analysis and Community Detection](#temporal-analysis-and-community-detection)
-- [Python Proficiency & Data Visualization](#python-proficiency--data-visualization)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Highlights](#project-highlights)
+  - [Web Scraping & NER](#web-scraping--ner)
+  - [Relationship Extraction & Network Analysis](#relationship-extraction--network-analysis)
+  - [Temporal Analysis and Community Detection](#temporal-analysis-and-community-detection)
+  - [Python Proficiency & Data Visualization](#python-proficiency--data-visualization)
+- [Utilization of AI](#utilization-of-ai)
+- [Project Impact](#project-impact)
 
-## Web Scraping & Named Entity Recognition (NER)
-
-### What I Did:
-- Scraped character names from the Witcher wiki, employing Selenium for efficient data extraction.
-- Applied spaCy's NER for precise identification of character entities within the fantasy story.
-
-### Technologies Used:
-- Python
-- Selenium
-- spaCy
-
-### Impact/Result Achieved:
-- Efficient extraction and categorization of character names, forming the foundation for subsequent relationship extraction.
-
-## Relationship Extraction & Network Analysis
-
-### What I Did:
-- Developed a custom relationship extraction model, leveraging co-occurrence of characters within a specified sentence window.
-- Utilized NetworkX for comprehensive graph analysis, creating an insightful social network graph of character connections.
-
-### Technologies Used:
-- Python
-- Custom model
-- NetworkX
-
-### Impact/Result Achieved:
-- Enabled the creation of a comprehensive social network graph, unveiling intricate character connections.
-
-## Temporal Analysis and Community Detection
-
-### What I Did:
-- Conducted temporal analysis across multiple books, revealing the evolution of character importance throughout the series.
-- Employed the Louvain algorithm for community detection, uncovering distinct character groups within the narrative.
-
-### Technologies Used:
-- Python
-- Louvain algorithm
-
-### Impact/Result Achieved:
-- Uncovered underlying community structures, enhancing the understanding of character relationships and evolution across books.
-
-## Python Proficiency & Data Visualization
-
-- Demonstrated expertise in Python programming, implementing advanced NLP techniques and graph analytics.
-- Utilized data visualization tools to present complex relationships and character dynamics effectively.
-
-## All Technologies Used
+## Technologies Used
 - **Programming Language:** Python
 - **Web Scraping:** Selenium
 - **Data Manipulation:** pandas, numpy
 - **Data Visualization:** Matplotlib
-- **Natural Language Processing (NLP):**
-  - Named Entity Recognition (NER) with spaCy
+- **NLP:**
+  - Named Entity Recognition (NER) using spaCy
   - Custom Relationship Extraction
 - **Graph Analysis:** NetworkX
 - **Community Detection Algorithm:** Louvain Algorithm
 
+## Project Highlights
+
+### Web Scraping & NER
+- **What I Did:**
+  - Extracted character names from the Witcher wiki using Selenium for efficient and structured data extraction.
+  - Applied spaCy's NER for precise identification of character entities within the fantasy narrative.
+
+### Relationship Extraction & Network Analysis
+- **What I Did:**
+  - Developed a custom relationship extraction model, leveraging co-occurrence of characters within a specified sentence window.
+  - Utilized NetworkX for comprehensive graph analysis, creating a detailed social network graph of character connections.
+
+### Temporal Analysis and Community Detection
+- **What I Did:**
+  - Conducted temporal analysis across multiple books, revealing the evolution of character importance throughout the series.
+  - Employed the Louvain algorithm for community detection, uncovering distinct character groups within the narrative.
+
+### Python Proficiency & Data Visualization
+- **What I Did:**
+  - Demonstrated expertise in Python programming for implementing advanced NLP techniques and graph analytics.
+  - Utilized data visualization tools, including Matplotlib, to present complex relationships and character dynamics effectively.
+
+## Utilization of AI
+- **How AI was Used:**
+  - Leveraged NLP techniques, including NER, for intelligent character identification.
+  - Applied custom relationship extraction model to infer connections between characters.
+  - Utilized Louvain algorithm for community detection, enabling the identification of character groups.
+
+## Project Impact
+The project provided a deep understanding of character relationships and their evolution throughout the Witcher book series. The use of NLP and graph analytics offered valuable insights into the dynamics of the narrative.
+
+Feel free to explore the notebooks and adapt the code for your own analysis.
