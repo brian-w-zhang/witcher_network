@@ -90,30 +90,30 @@ This systematic analysis, facilitated by modular functions and visualizations, p
 ## Project Highlights
 
 ### Web Scraping & NER
-- **What I Did:**
-  - Extracted character names from the Witcher wiki using Selenium for efficient and structured data extraction.
-  - Applied spaCy's NER for precise identification of character entities within the fantasy narrative.
+**What I Did:**
+- Extracted character names from the Witcher wiki using Selenium, ensuring efficient and structured data extraction.
+- Applied spaCy's NER for precise identification of character entities within the fantasy narrative.
 
 ### Relationship Extraction & Network Analysis
-- **What I Did:**
-  - Developed a custom relationship extraction model, leveraging co-occurrence of characters within a specified sentence window.
-  - Utilized NetworkX for comprehensive graph analysis, creating a detailed social network graph of character connections.
+**What I Did:**
+- Developed a custom relationship extraction model, leveraging co-occurrence of characters within a specified sentence window.
+- Utilized NetworkX for comprehensive graph analysis, creating a detailed social network graph of character connections.
 
 ### Temporal Analysis and Community Detection
-- **What I Did:**
-  - Conducted temporal analysis across multiple books, revealing the evolution of character importance throughout the series.
-  - Employed the Louvain algorithm for community detection, uncovering distinct character groups within the narrative.
+**What I Did:**
+- Conducted temporal analysis across multiple books, unveiling the evolution of character importance throughout the series.
+- Employed the Louvain algorithm for community detection, revealing distinct character groups within the narrative.
 
 ### Python Proficiency & Data Visualization
-- **What I Did:**
-  - Demonstrated expertise in Python programming for implementing advanced NLP techniques and graph analytics.
-  - Utilized data visualization tools, including Matplotlib, to present complex relationships and character dynamics effectively.
+**What I Did:**
+- Demonstrated expertise in Python programming for implementing advanced NLP techniques and graph analytics.
+- Utilized data manipulation with Pandas, and employed data visualization tools, including Matplotlib and Pyvis, to present complex relationships and character dynamics effectively.
 
 ## Utilization of AI
-- **How AI was Used:**
-  - Leveraged NLP techniques, including NER, for intelligent character identification.
-  - Applied custom relationship extraction model to infer connections between characters.
-  - Utilized Louvain algorithm for community detection, enabling the identification of character groups.
+**How AI was Used:**
+- Leveraged NLP techniques, including NER, for intelligent character identification.
+- Applied a custom relationship extraction model to infer connections between characters.
+- Utilized the Louvain algorithm for community detection, enabling the identification of character groups.
 
 ## Project Impact
 The project provided a deep understanding of character relationships and their evolution throughout the Witcher book series. The use of NLP and graph analytics offered valuable insights into the dynamics of the narrative.
