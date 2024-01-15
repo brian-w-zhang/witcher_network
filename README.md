@@ -14,6 +14,7 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
 - [Technologies Used](#technologies-used)
 - [Network Diagram Evolution](#network-diagram-evolution)
 - [Centrality Graphs](#centrality-graphs)
+- [Evolution of Character Importance](#evolution-of-character-importance)
 - [Project Highlights](#project-highlights)
   - [Web Scraping & NER](#web-scraping--ner)
   - [Relationship Extraction & Network Analysis](#relationship-extraction--network-analysis)
@@ -51,15 +52,44 @@ https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-
 
 ### Degree Centrality
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/f14914ca-bcb0-45df-8f1d-113c9216731a)
+
 Degree centrality is a measure in network analysis that quantifies the importance of a node based on its connections. Specifically, it represents the number of direct connections or links a node has within a network. In simpler terms, nodes with higher degree centrality have more relationships or interactions with other nodes, signifying a greater influence or prominence in the network.
 
 ### Betweenness Centrality
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/1fa601f7-4b5a-47fc-9dcc-d3aa978f87a9)
+
 Betweenness centrality is a network analysis metric that identifies nodes that act as crucial intermediaries or bridges in a network. It measures the frequency with which a node lies on the shortest paths between other pairs of nodes. Nodes with higher betweenness centrality play a significant role in maintaining efficient communication within the network. They act as critical connectors, influencing the flow of information between different parts of the network. High betweenness centrality nodes are essential for maintaining network cohesion and facilitating communication between disparate groups of nodes.
 
 ### Closeness Centrality
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/65f979b9-5290-496f-9d42-e1b259363ed5)
+
 Closeness centrality is a network analysis metric that measures how quickly a node can reach other nodes in a network. It is calculated by determining the average length of the shortest paths between a node and all other nodes in the network. Nodes with higher closeness centrality are considered more central because they can efficiently communicate or transmit information to other nodes, acting as potential hubs for information flow within the network.
+
+## Evolution of Character Importance
+
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/3cd9a0b9-d7e0-4a7f-9925-87423c10f735)
+
+To trace the evolution of character importance in the Witcher book series, a structured approach was employed:
+
+### 1. Book Order Determination:
+- Chronological reordering of books based on external sources.
+
+### 2. Graph Creation Loop:
+- Modular functions stored in 'utils.py' for organized and reusable code.
+- Iterative loop for creating individual graphs per book.
+
+### 3. Graph Metrics Extraction:
+- Extraction of degree centrality values for key characters (e.g., Geralt, Ciri) for quantitative analysis.
+
+### 4. Data Visualization:
+- Plotting degree centrality values over time to visually represent character importance evolution.
+- Consistent centrality of key characters like Geralt and Ciri highlighted their enduring significance.
+
+This systematic analysis, facilitated by modular functions and visualizations, provided insights into the dynamic shifts in character importance across the Witcher series. The use of Python tools and organized coding practices enhanced efficiency and scalability in conducting this analysis.
+
+### Closeness Centrality
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/b7d46eb1-0d4b-472d-90a6-65f219c3e4fd)
+
 
 ## Project Highlights
 
