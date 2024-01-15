@@ -62,10 +62,14 @@ This project is an in-depth Natural Language Processing (NLP) analysis of the Wi
 - Demonstrated expertise in Python programming, implementing advanced NLP techniques and graph analytics.
 - Utilized data visualization tools to present complex relationships and character dynamics effectively.
 
-## Technologies Used
+## All Technologies Used
+- **Programming Language:** Python
+- **Web Scraping:** Selenium
+- **Data Manipulation:** pandas, numpy
+- **Data Visualization:** Matplotlib
+- **Natural Language Processing (NLP):**
+  - Named Entity Recognition (NER) with spaCy
+  - Custom Relationship Extraction
+- **Graph Analysis:** NetworkX
+- **Community Detection Algorithm:** Louvain Algorithm
 
-- Python
-- Selenium
-- spaCy
-- NetworkX
-- Louvain Algorithm
