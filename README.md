@@ -3,7 +3,8 @@
 ## Overview
 This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
 
-![Local Image](./visuals/witcher book 1 pyvis graph 3 with community detection.png)
+![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/7b62ba5f-8576-42ec-a24b-34ea47f2606d)
+
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
