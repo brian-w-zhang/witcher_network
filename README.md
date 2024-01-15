@@ -5,6 +5,7 @@ This project delves into Natural Language Processing (NLP) techniques to perform
 
 ### PyVis Graph with Community Detection
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/7b62ba5f-8576-42ec-a24b-34ea47f2606d)
+
 This image showcases a network graph generated using PyVis, visualizing the intricate relationships among characters in the Witcher book series. The community detection algorithm, specifically the Louvain algorithm, has been applied to uncover distinct character groups within the narrative. The colors represent different communities, providing insights into the social dynamics and connections between characters throughout the series. Additionally, the node sizes reflect the degree of each character, highlighting their importance in the network.
 
 ## Table of Contents
