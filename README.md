@@ -31,10 +31,10 @@ This image showcases a network graph generated using PyVis, visualizing the intr
 - **Community Detection Algorithm:** Louvain Algorithm
 
 ## Network Diagram Evolution
-
+###Simple diagram generated using NetworkX
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/77b07190-ae7a-4c8c-a64b-26a19591a0b7)
 
-Simple diagram generated using NetworkX
+
 
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/2a9c8ad3-655d-4fc3-8bfa-92b85a5e63e0)
 
