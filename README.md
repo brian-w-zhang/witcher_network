@@ -1,9 +1,5 @@
 # Witcher Book Series NLP Analysis
 
-
-https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-446d-9a8e-d4dad1d59902
-
-
 ## Overview
 This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series, by Andrzej Sapkowski. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
 
@@ -11,6 +7,8 @@ This project delves into Natural Language Processing (NLP) techniques to perform
 ![image](https://github.com/brian-w-zhang/witcher_project/assets/152770271/7b62ba5f-8576-42ec-a24b-34ea47f2606d)
 
 This image showcases a network graph generated using PyVis, visualizing the intricate relationships among characters in the Witcher book series. The community detection algorithm, specifically the Louvain algorithm, has been applied to uncover distinct character groups within the narrative. The colors represent different communities, providing insights into the social dynamics and connections between characters throughout the series. Additionally, the node sizes reflect the degree of each character, highlighting their importance in the network (Data from Sword of Destiny).
+
+https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-446d-9a8e-d4dad1d59902
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
