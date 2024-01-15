@@ -1,6 +1,8 @@
 # Witcher Book Series NLP Analysis
 
-C:\Users\brian\witcher_project\visuals\witcher community graph moving.webm
+
+https://github.com/brian-w-zhang/witcher_project/assets/152770271/0dc9fb00-6737-446d-9a8e-d4dad1d59902
+
 
 ## Overview
 This project delves into Natural Language Processing (NLP) techniques to perform an in-depth analysis of the Witcher book series. The primary objectives include web scraping character names, employing Named Entity Recognition (NER), extracting intricate relationships, and conducting comprehensive network analysis.
